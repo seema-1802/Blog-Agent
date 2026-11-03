@@ -38,7 +38,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 IMAGE_DIR.mkdir(parents=True, exist_ok=True)
 
 # You can override these model names in .env if Groq changes availability.
-PLANNER_MODEL = os.getenv("GROQ_PLANNER_MODEL", "openai/gpt-oss-120b")
+PLANNER_MODEL = os.getenv("GROQ_PLANNER_MODEL", "openai/gpt-oss-20b")
 WORKER_MODEL = os.getenv("GROQ_WORKER_MODEL", "openai/gpt-oss-20b")
 MAX_WORKER_RETRIES = 2
 MAX_IMAGES = 3
