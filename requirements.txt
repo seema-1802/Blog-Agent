@@ -1,0 +1,9 @@
+streamlit
+pandas
+streamlit-mermaid
+langchain-core
+langchain-groq
+langgraph
+pydantic
+python-dotenv
+requests

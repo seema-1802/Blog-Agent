@@ -1,0 +1,22 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+.env
+__pycache__/
+*.py[cod]
+.venv/
+myenv/
+# Environment Variables & Keys (Do NOT commit)
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Streamlit Cache
+.streamlit/
+
+# Temporary generated files
+outputs/*.zip
